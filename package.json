@@ -1,0 +1,23 @@
+{
+  "name": "my-cool-package",
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "test": "standard && node my-tests.js"
+  },
+  "standard": {
+  "ignore": [
+    "**/out/",
+    "/lib/select2/",
+    "/lib/ckeditor/",
+    "tmp.js"
+  ]
+},
+"env":{
+  "es6":true,
+  "node":true,
+  "browser":true,
+  "jquery":true
+}
+}
